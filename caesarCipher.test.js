@@ -9,7 +9,7 @@ test("encrypts names", () => {
 });
 
 test("encrypts sentences", () => {
-  expect(caesarCipher("You are so dumb...")).toBe("aqw ctg uq fwod...");
+  expect(caesarCipher("Does this still work?")).toBe("fqgu vjku uvknn yqtm?");
 });
 
 test("punctation remains the same", () => {
